@@ -27,3 +27,35 @@ To be able to run the code, follow these instructions:
 * make sure Firefox is installed on your machine (available [here](https://www.google.com/chrome/browser/desktop/))
 
 * install Java from [here](https://www.java.com/de/download/))
+
+
+## More advice from Laura Dietz
+
+For extracting information from real, i.e., dirty, web pages you may
+want to look into boilerpipe.
+
+Website:
+http://boilerpipe-web.appspot.com/
+
+Code:
+https://github.com/kohlschutter/boilerpipe
+
+Some tutorial:
+http://www.treselle.com/blog/boilerpipe-web-content-extraction-without-boiler-plates/
+
+
+For extracting particular fields from the text, the best Machine
+Learning methods are based on linear-chain Conditional Random Fields
+(CRFs). One package that was useful to some of my students in the past
+is CRF++
+
+Code:
+taku910.github.io/crfpp
+
+
+To find person, organization, etc in text, I recommend using entity
+linking tools (which are very mature now). The best at the moment is TagMe
+
+API:
+http://tagme.di.unipi.it/
+
